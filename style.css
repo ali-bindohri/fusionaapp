@@ -65,7 +65,7 @@ a{
   grid-template-rows: 30vh auto;
   margin-top: 3%;
   margin-left: 11%;
-  background-image: url('../images/hero-area.svg');
+  background-image: url('/images/hero-area.svg');
   background-repeat: no-repeat;
   min-height: 650px;
   background-position: 10px center;
@@ -295,6 +295,46 @@ button{
   grid-column: 2/2;
   grid-row: 2/2;
   margin-top: 20%;
+}
+.pricing {
+  min-height: 650px;
+}
+.pricing-grid{
+  display: grid;
+  grid-template-columns: repeat(3,30%);
+  grid-gap: 2em;
+  margin-left: 11.6%;
+  margin-top: 5%;
+}
+.pricing-box{
+  box-shadow: 0 0 20px #f4f4f4;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+}
+.pricing-icon{
+  width: 87;
+  margin-top: 2%;
+}
+.pricing-p{
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #f63854;
+  margin-top: 5%;
+}
+.pricing-p::after{
+  content: " /mo";
+  color: #abacae;
+  font-weight: 400;
+  font-size: 0.938rem;
+}
+.plus-out {
+  box-shadow: 0 10px 22px 10px rgb(27 38 49 / 10%);
+}
+.pricing-box:hover{
+  box-shadow: 0 10px 22px 10px rgb(27 38 49 / 10%);
+}
+.review {
+  background-color: #f63854;
 }
 .contact{
   background-color: rgb(249, 249, 249);
