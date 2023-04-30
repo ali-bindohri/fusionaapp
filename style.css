@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 html{
   margin: 0;
   padding: 0;
@@ -13,7 +16,7 @@ body{
   left: 0;
   margin: 0;
   padding: 0;
-  
+
 }
 /* nav bar ------------------------------------------------------------------------*/
 .navbar{
@@ -67,10 +70,10 @@ a{
   /* grid-template-columns: repeat(2, 1fr);
   grid-template-areas:"head head-img"
   "p head-img"; */
-  grid-template-rows: 30vh auto;
+  /* grid-template-rows: 30vh auto; */
   margin-top: 10%;
   /* margin-left: 11%; */
-  padding-left: 127px;
+  padding-left: 136px;
   background-image: url('/images/hero-area.svg');
   background-repeat: no-repeat;
   min-height: 534px;
@@ -91,7 +94,6 @@ a{
 }
 .hero-area-header-img{
   padding: 50px;
-
 }
 .header img{
   /* grid-area: head-img; */
@@ -176,7 +178,7 @@ button{
   grid-template-columns: repeat(3, 30%);
   grid-gap: 2em;
   grid-template-rows: 250px 250px;
-  margin-left: 12%;
+  margin-left: 137px;;
 }
 .box{
   /* display: flex; */
